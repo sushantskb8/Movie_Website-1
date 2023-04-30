@@ -275,6 +275,25 @@ section{
     font-size: 1rem;
     font-weight: 400;
 }
+.a-class{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.8rem;
+    color: var(--text-color);
+}
+.a-class .bx{
+    font-size: 25px;
+    background: var(--main-color);
+    width: 47px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-class .bx:hover{
+    background: var(--hover-color);
+}
 
 /* 22nd code goes here, styling the heading */
 .heading{
